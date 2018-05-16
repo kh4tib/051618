@@ -12,6 +12,8 @@ body {
     box-sizing: border-box;
 }
 
+
+
 // Main Styles
 
 .main {
@@ -34,8 +36,9 @@ body {
 
         svg {
             vertical-align: middle;
+            transform: rotate(45deg);
             fill: slateblue;
-            transition: 1s cubic-bezier(.68,.12,0,.99);
+            opacity: 1;
         }
 
         &:hover {
@@ -51,14 +54,14 @@ body {
 
             100% {
                 transform: rotate(45deg);
-                border-radius: 0rem;
+                border-radius: .25rem;
             }
         }
 
         @keyframes rotateAnimTwo {
             0% {
                 transform: rotate(45deg);
-                border-radius: 0rem;
+                border-radius: .25rem;
             }
 
             100% {

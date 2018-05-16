@@ -26,8 +26,9 @@ body {
     cursor: pointer; }
     .main__button svg {
       vertical-align: middle;
+      transform: rotate(45deg);
       fill: slateblue;
-      transition: 1s cubic-bezier(0.68, 0.12, 0, 0.99); }
+      opacity: 1; }
     .main__button:hover {
       animation: rotateAnimOne 1s cubic-bezier(0.68, 0.12, 0, 0.99) forwards 1; }
 @keyframes rotateAnimOne {
@@ -36,11 +37,11 @@ body {
     border-radius: 4rem; }
   100% {
     transform: rotate(45deg);
-    border-radius: 0rem; } }
+    border-radius: .25rem; } }
 @keyframes rotateAnimTwo {
   0% {
     transform: rotate(45deg);
-    border-radius: 0rem; }
+    border-radius: .25rem; }
   100% {
     transform: rotate(0deg);
     border-radius: 4rem; } }
